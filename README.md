@@ -1,11 +1,11 @@
 # PDC-26S2-ARM64
 A container image test based on Ubuntu 22.04 ARM64/AARCH64
 
-The image has both `mpicc` & `mpirun` installed.s
+> The image has both `mpicc` & `mpirun` installed.
 
-This does not automatically create a host_file to distribute the process
+This **does not automatically create a host_file** to distribute the process
 
-Though this can be automated at creation within the `devcontainer.json` (including setting a specific hostname)
+> Though this can be automated at creation within the `devcontainer.json` (including setting a specific hostname)
 
 ### Notes
 - Before pushing, need to create a access token (classic) with write privileges
