@@ -13,7 +13,7 @@ docker build \
 --tag ghcr.io/bennydang-dev/pdc-26s2-arm64:0.1 \
 ```
 > Note: repository name must be in lowercase!
-- Then just it to `ghcr.io`
+- Then just push it to `ghcr.io`
 ```
 docker push ghcr.io/bennydang-dev/pdc-26s2-arm64:latest 
 docker push ghcr.io/bennydang-dev/pdc-26s2-arm64:0.1
