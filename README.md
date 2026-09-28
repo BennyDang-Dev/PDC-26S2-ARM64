@@ -7,6 +7,10 @@ This **does not automatically create a host_file** to distribute the process
 
 > Though this can be automated at creation within the `devcontainer.json` (including setting a specific hostname)
 
+Update `28 Sep 2026`: Pip + Jupyter is now bundled to support analysis done for Part2B
+
+> To activate the environment: ``
+
 ### Notes
 - Before pushing, need to create a access token (classic) with write privileges
 - Login into **ghcr.io** using docker: `docker login ghcr.io`
