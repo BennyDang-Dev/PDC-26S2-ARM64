@@ -9,7 +9,8 @@ This **does not automatically create a host_file** to distribute the process
 
 Update `28 Sep 2026`: Pip + Jupyter is now bundled to support analysis done for Part2B
 
-> To activate the environment: ``
+> Init the environment: `pipenv shell`, this should create a pipfile config file (also to activate the environment)\
+> Use `pipenv install` to install packages (*this will show up as dependencies within pipfile*)
 
 ### Notes
 - Before pushing, need to create a access token (classic) with write privileges
@@ -18,7 +19,7 @@ Update `28 Sep 2026`: Pip + Jupyter is now bundled to support analysis done for 
     - Password is the newly generated access token
 - Building the image with proper tags
 ```
-docker build \
+docker build . \
 --tag ghcr.io/bennydang-dev/pdc-26s2-arm64:latest \
 --tag ghcr.io/bennydang-dev/pdc-26s2-arm64:0.1 \
 ```

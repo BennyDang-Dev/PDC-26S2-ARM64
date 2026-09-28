@@ -6,7 +6,6 @@ RUN apt update && apt -y upgrade
 RUN apt install -y mpich libmpich-dev
 
 # Install python + jupyter notebook for analysis
+RUN apt update
 RUN apt install -y pip
-RUN pip install -y --user pipenv
-RUN pipenv shell
-RUN pipenv install -y jupyter matplotlib pandas seaborn
+RUN pip install pipenv jupyter matplotlib pandas seaborn
